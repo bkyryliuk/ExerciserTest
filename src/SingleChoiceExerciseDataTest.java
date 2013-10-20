@@ -14,7 +14,7 @@ import junit.framework.TestCase;
 public class SingleChoiceExerciseDataTest extends AndroidTestCase {
 	private Resources resources;
 	private Context context;
-
+// test wklrbrlbh
 	@Override
 	protected void setUp() throws Exception {
 		super.setUp();
