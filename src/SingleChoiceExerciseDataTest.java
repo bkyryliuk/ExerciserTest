@@ -2,19 +2,17 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.test.AndroidTestCase;
 
-import com.gma.exerciser.R;
-import com.gma.exerciser.LearningLogic.Exercises.ExerciseData;
 import com.gma.exerciser.LearningLogic.Exercises.SingleChoiceExerciseData;
 import com.gma.exerciser.Pojo.Word;
+import com.gma.exerciser.R;
 import com.gma.exerciser.test.DAO.MockDictionaryDAO;
 
 import junit.framework.Assert;
-import junit.framework.TestCase;
 
 public class SingleChoiceExerciseDataTest extends AndroidTestCase {
 	private Resources resources;
 	private Context context;
-// test wklrbrlbh
+
 	@Override
 	protected void setUp() throws Exception {
 		super.setUp();
